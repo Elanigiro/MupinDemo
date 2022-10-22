@@ -1,0 +1,7 @@
+RewriteEngine on
+
+# WARNING: RewriteCond only apply to the next RewriteRule (NOT more than one)
+# this means "if the file corresponding to the request path does NOT exist or is NOT a regular file (ie not .php), THEN apply the Rewrite Rule/s" (! => NOT)
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ".*" "index.php"

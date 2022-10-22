@@ -1,0 +1,59 @@
+.tooltip {
+    display: none;
+}
+
+.tooltip {
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    margin: 10px 0;
+    padding: 5px;
+}
+
+.tooltip.invalid, .tooltip.failure {
+    display: block;
+    background-color: red;
+}
+
+.tooltip.success {
+    display: block;
+    background-color: green;
+}
+
+#adv_form, #add_form, #edit_form {
+
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#adv_form section, #add_form section, #edit_form section {
+
+    margin-top: 10px;
+}
+
+.adv_field {
+
+    width: 15em;
+}
+
+.adv_field:invalid:not(:placeholder-shown) {
+
+    background-color: rgba(255, 0, 0, 0.596);
+}
+
+.adv_field:read-only {
+
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+div.adv_label {
+
+    text-align: initial;
+}
+
+#adv_form section:last-of-type, #add_form section:last-of-type, #edit_form section:last-of-type {
+
+    margin-bottom: 10px;
+}

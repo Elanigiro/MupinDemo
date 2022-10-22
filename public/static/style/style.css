@@ -1,0 +1,226 @@
+/*Global settings*/
+
+html {
+
+    box-sizing: border-box;
+    font-family: Hubballi, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: max-content;
+}
+
+*, *::before, *::after {
+
+    box-sizing: inherit;
+}
+
+body {
+
+    background-color: antiquewhite;
+}
+
+/*end-of-global*/
+
+header {
+
+    width: 50%;
+    height: fit-content;
+    background-color: #FFA500;
+    padding: 7px;
+    margin: 8px auto;
+    border: 5px double black;
+    border-radius: 30px;
+    overflow: auto;
+}
+
+main, footer {
+
+    width: 60%;
+    height: max-content;
+    padding: 1em;
+    margin: 8px auto;
+    border: 5px double black;
+    border-radius: 30px;
+    background-color: #FFA500;
+    overflow: auto;
+}
+
+h1 {
+
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h2 {
+
+    font-size: 2rem;
+    text-align: left;
+}
+
+h3 {
+
+    font-size: 0.8rem;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+p {
+
+    margin-left: 15px;
+}
+
+summary {
+
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+details p {
+
+    font-style: italic;
+}
+
+.disclaimer {
+
+    color: cyan;
+    text-decoration: underline currentColor;
+    cursor: not-allowed;
+}
+
+a {
+
+    cursor: pointer;
+    text-decoration-line: underline;
+}
+
+a:link {
+
+    color: blue;
+}
+
+a:visited {
+
+    color: blue;
+}
+
+a:hover {
+
+    color: white;
+}
+
+a:active {
+
+    color: black;
+}
+
+.date-and-by > .author-name {
+
+    font-style: italic;
+}
+
+.date-and-by {
+
+    margin-bottom: 0px;
+}
+
+article img {
+
+    max-width: 85%;
+    max-height: 85%;
+}
+
+article figure {
+
+    height: 250px;
+    width: fit-content;
+
+    text-align: center;
+
+    margin: 1em auto;
+    border: 2px dashed antiquewhite;
+    border-radius: 30px;
+    padding: 1em 0px 0px;
+
+    background-color:rgba(28, 163, 118, 0.53);
+
+    overflow: hidden;
+
+    position: relative;
+}
+
+article figcaption {
+    background-color: #222;
+    color: #ffffff;
+    font: italic 0.5em sans-serif;
+    padding: 3px;
+    text-align: center;
+
+    width: 100%;
+
+    position: absolute;
+    bottom: 0px;
+}
+
+section > h2 {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: rgb(102, 10, 10);
+    text-decoration:underline dotted;
+}
+
+article em {
+
+    font-weight: bold;
+    font-size: 1em;
+    font-style: normal;
+}
+
+main > form {
+
+    margin: 0 auto;
+    text-align: center;
+}
+
+.success {
+
+    color: green;
+}
+
+.failure {
+
+    color: purple;
+}
+
+/*Sidebar*/
+
+#sidebar {
+
+    display: block;
+
+    position: fixed;
+    top: 10%;
+    left: 0px;
+
+    height: fit-content;
+    width: 15%;
+    max-width: 300px;
+    padding: 0.5rem;
+    border-top: 4px double black;
+    border-right: 4px double black;
+    border-bottom: 4px double black;
+    margin: 0px;
+
+    background-color: #00B4FF;
+    color: aliceblue;
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+
+    overflow: clip;
+}
+
+/*End of sidebar*/
