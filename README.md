@@ -10,7 +10,8 @@ The project's core is [SimpleMVC](https://github.com/simplemvc/skeleton), a PHP 
 It also adopts [PSR-7](https://www.php-fig.org/psr/psr-7/) interfaces for HTTP request/response.
 
 The web application is backed by a MariaDB SQL Database for storing the Museum's catalogue.
-A database SQL dump is available inside the <em>db_scripts</em> folder.
+
+<em>NOTE: A database SQL dump is available inside the db_scripts folder.</em>
 
 -------------------------------
 ## Website features
@@ -90,7 +91,7 @@ Contains the Object representations of the DB entities.
 Many of the object's property feature a Documentation comment.
 
 This <em><strong>Annotations</strong></em> are used through <em>Reflective programming</em> to:
-   - provide validation information to the Server and to the Client (Plates)
+   - provide validation information to the Server and to the Client
    - build a basic ORM system by annotating PKs/FKs
 
 
