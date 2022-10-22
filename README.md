@@ -2,7 +2,7 @@
 
 ![home](https://github.com/Elanigiro/MupinDemo/blob/master/screens/home.png)
 
-This project represents an attempt at building the Backend/Frontend infrastructure for managing the Piedmontese computer history museum (MUPIN).
+This project represents an attempt at building the Backend/Frontend infrastructure for managing the <em>Piedmontese Computer History Museum</em> (MUPIN).
 
 The focus of the project was the Backend, hence the very dry approach to UI/UX.
 
