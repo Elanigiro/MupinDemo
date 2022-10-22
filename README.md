@@ -1,6 +1,6 @@
 # MUPIN website prototype
 
-[]()
+![home](https://github.com/Elanigiro/MupinDemo/blob/master/screens/home.png)
 
 This project represents an attempt at building the Backend/Frontend infrastructure for managing the Piedmontese computer history museum (MUPIN).
 
@@ -17,6 +17,8 @@ A database SQL dump is available inside the <em>db_scripts</em> folder.
 
 ### <strong>1. Basic Search Engine</strong>
 
+![search results](https://github.com/Elanigiro/MupinDemo/blob/master/screens/search_results.png)
+
 It is a simple search engine powered by FULLTEXT indices inside the DB.
 
 The results are ordered by relevance thanks to a scoring system.
@@ -28,6 +30,8 @@ The user can either search in the whole catalogue or select one of the available
 Though still very simple in the implementation, this feature enables users to perform a more refined lookup by selecting not only the category but also the field/s to scan.
 
 ### <strong>3. Login/Logout</strong>
+
+![login](https://github.com/Elanigiro/MupinDemo/blob/master/screens/login.png)
 
 In order to access advanced features, admins have to authenticate with email and password.
 
@@ -48,13 +52,19 @@ Admins are allowed to un/register other admins.
 
 ### <strong>5. Add catalogue Item</strong>
 
+![add item](https://github.com/Elanigiro/MupinDemo/blob/master/screens/add_item.png)
+
 Admins can add items to the catalogue.
 
 ### <strong>6. Edit a single item</strong>
 
+![edit item](https://github.com/Elanigiro/MupinDemo/blob/master/screens/edit_item.png)
+
 Admins can click on the edit button to edit any field of the selected item, excluding the <strong>item-id</strong> which is read-only.
 
 ### <strong>7. Edit item's pictures</strong>
+
+![edit pictures](https://github.com/Elanigiro/MupinDemo/blob/master/screens/edit_pics.png)
 
 Admins can delete/add pictures from/to a specific item as they see fit.
 
