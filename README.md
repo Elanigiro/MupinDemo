@@ -114,4 +114,4 @@ Also, they validate the requests and prevent unauthorized access to the data.
 
 Finally, this folder contains the classes dedicated to the Unit-Testing of the source code.
 
-The Unit-Testing is performed by <strong>phpunit</strong>.
+The Unit-Testing is powered by <strong>phpunit</strong>.
